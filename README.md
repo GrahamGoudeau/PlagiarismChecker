@@ -1,5 +1,5 @@
-# TripAdvisor Interview Homework
-# Graham Goudeau
+# Plagiarism Checker
+### Graham Goudeau
 
 
 ## Running
