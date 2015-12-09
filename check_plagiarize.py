@@ -25,7 +25,7 @@ def tuple_separate(file_name, tuple_size, synonym_map):
                 print('Warning - tuple size equals or exceeds text length in \'{}\''
                     .format(file_name), file=sys.stderr)
 
-                # return a single 'tuple' the length of the text
+                # return a single tuple which has the same length as the text
                 return [[Word(word, synonym_map) for word in split_text]]
 
             # get every grouping of tuple_size from the text
